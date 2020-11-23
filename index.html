@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>story</title>
+
+<style type="text/css">
+	
+.st{
+	width: 50%;
+	background-color: white;
+	border:1px solid black;
+	height: 20%;
+	text-align: center;
+	margin-left: 25%;
+	border-radius:30px;
+}
+.form{
+	width: 50%;
+	height: 900px ;
+	border:1px solid black;
+	text-align: center;
+	margin-left: 25%;
+	border-radius:30px;
+	margin-top: 10px;
+	background-color: #f2e4c4;
+}
+body{
+	background-color: #e3a412;
+
+}
+input[type=text] ,select,textarea{
+
+	border-radius: 9px;
+	padding:6px;
+	border-color:white; 
+}
+label
+{
+ font-size: 20px;
+}
+
+textarea{
+	border-color: blue;
+}
+
+
+
+</style>
+
+</head>
+<body>
+ 
+ <div class="st"> <img src="STOR.jpg" style="width:35%; ">
+ </div>
+ <div class="form">
+ 	<div>
+ 	<div style="border-bottom: 2px solid gray; ">
+ 		<h1> Complete the form -</h1><h1> Complete the story!</h1>
+ 	</div>
+ 	<form class="labels"  action="story2.html" method="get">
+ 	<p><label> Animal:</label>
+ 		<input type="text" Id="animal1">
+ 	</p>
+ 		
+ 	<p><label> Another Animal:</label>
+ 		<input type="text" Id="animal2">
+ 	</p>
+ 	<p><label>One More Animal:</label>
+ 		<input type="text" Id="animal3">
+ 	</p>
+ 		<p><label>Adjective(past tense):</label>
+ 		<input type="text" Id="Adjective">
+ 	</p>
+ 		<p><label> verb(ends in -ing:</label>
+ 		<input type="text" Id="verb">
+ 	</p>
+ 		<p><label> Number:</label>
+ 		<input type="text" Id="number">
+ 	</p>
+ 		<p>	
+		<label> Yes :</label>
+ 		<input type="radio" name="browse" value="Yes" onclick="myFunction(this.value)">
+ 		<label>  No:</label>
+ 		<input type="radio" name="browse" value="No" onclick="myFunction(this.value)">
+ 		
+ 	<p>	<label type="text">Relative speed (end in -er)</label>
+			<select id="speed" >
+			  <option value="Quicker">Quicker</option>
+			  <option value="faster">faster</option>
+			  <option value="Slower">slower</option>
+			  
+			</select>
+		</p>
+ 		<p><label> Motivational Quote:</label>
+ 		<input type="text" id="Quote">
+ 	</p>
+ 		 <h4> Meaningful message</h4>
+ 		<textarea rows="10" cols="30" name="comment" form="usrform" style="">Enter text here...</textarea><br>
+
+ 		<input type="submit" value="for my story!" onclick="passvalue();" style="margin-top: 30px;">
+ 	</form>
+
+ </div>
+<script src="index.js"></script>
+
+</body>
+</html>
