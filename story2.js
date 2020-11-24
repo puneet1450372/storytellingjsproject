@@ -23,6 +23,6 @@
  	document.getElementById('Dog').innerHTML=localStorage.getItem("txt3")
  	document.getElementById('alarmed').innerHTML=localStorage.getItem("txt4")
 	document.getElementById('number').innerHTML=localStorage.getItem("txt6")
-	document.getElementById('msg').innerHTML=localStorage.getItem("txt9")
+	document.getElementById('message').innerHTML=localStorage.getItem("txt9")
  	
  	
